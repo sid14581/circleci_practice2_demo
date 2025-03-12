@@ -6,7 +6,7 @@ class MyTestCase(unittest.TestCase):
     def test_to_upper(self):
         name = "siddu"
         upper_name = to_upper(name)
-        self.assertEqual(upper_name, "SIDDU")
+        self.assertEqual(upper_name, "SID")
 
 
 if __name__ == '__main__':
